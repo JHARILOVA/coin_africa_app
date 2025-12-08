@@ -40,14 +40,14 @@ if option == "Display datasets":
     st.write("Select a dataset below to display it:")
 
     csv_files = {
-        "Vetements hommes": "data/vetements-homme.csv",
-        "Vetements hommes Africa": "data/coin_africa_vetements-homme.csv",
+        "Data Vetements hommes": "data/vetements-homme.csv",
+        "Vetements hommes via web scraper": "data/coin_africa_vetements-homme.csv",
         "chaussures enfants": "data/chaussures-enfants.csv",
-        "Chaussures enfants Africa": "data/africa_coin_chaussures-enfants.csv",
+        "Chaussures enfants via web scraper": "data/africa_coin_chaussures-enfants.csv",
         "chaussures hommes": "data/chaussures-homme.csv",
-        "chaussures homme Africa": "data/coin_africa_chaussures-homme.csv",
+        "chaussures homme via web scraper": "data/coin_africa_chaussures-homme.csv",
         "vetements enfants": "data/vetements-enfants.csv",
-        "vetements enfants Africa": "data/coin_afrique_vetements-enfants.csv",
+        "vetements enfants via web scraper": "data/coin_afrique_vetements-enfants.csv",
     }
 
     cols = st.columns(4)  
