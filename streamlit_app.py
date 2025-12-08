@@ -13,7 +13,7 @@ body {
     background-color: #000000;
     color: white;
 }
-h1, h2, h3{
+h1{
     text-align: center !important;
     }
 </style>
