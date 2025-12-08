@@ -47,19 +47,19 @@ if "selected_dataset" not in st.session_state:
 # ------------------------------
 # 1️⃣ DISPLAY 8 CSV FILES
 # ------------------------------
-if option == "Display my 8 datasets":
+if option == "Display  datasets":
     st.header("Datasets")
     st.write("Select a dataset below to display it:")
 
-    # 8 datasets
+    # Datasets
     csv_files = {
-        "Vetements_hommes": "data/vetements-homme.csv",
-        "coin_africa_vetements-homme": "data/coin_africa_vetements-homme.csv",
-        "chaussures-enfants": "data/chaussures-enfants.csv",
-        "africa_coin_chaussures-enfants": "data/africa_coin_chaussures-enfants.csv",
-        "chaussures-homme": "data/chaussures-homme.csv",
-        "coin_africa_chaussures-homme": "data/coin_africa_chaussures-homme.csv",
-        "vetements-enfants": "data/vetements-enfants.csv",
+        "Vetements_pour_hommes": "data/vetements-homme.csv",
+        "Vetements_pour_hommes1": "data/coin_africa_vetements-homme.csv",
+        "Chaussures_pour_enfants": "data/chaussures-enfants.csv",
+        "Chaussures_pour_enfants1": "data/africa_coin_chaussures-enfants.csv",
+        "Chaussures_pour_hommes": "data/chaussures-homme.csv",
+        "Chaussures_pour_hommes1": "data/coin_africa_chaussures-homme.csv",
+        "vetements_pour_enfants": "data/vetements-enfants.csv",
         "coin_afrique_vetements-enfants": "data/coin_afrique_vetements-enfants.csv",
     }
 
@@ -97,39 +97,10 @@ elif option == "Google Forms":
 # ------------------------------
 # 3️⃣ DASHBOARD SECTION
 # ------------------------------
-# elif option == "Dashboard":
-#     st.header("Dashboard")
-
-#     st.write("Example of simple statistics from Dataset 1:")
-#     df = load_csv("data/vetements-homme.csv")
-
-#     st.subheader("General Statistics")
-#     st.write(df.describe())
-
-#     st.subheader("Line Chart")
-#     st.line_chart(df)
-
-# elif option == "Dashboard":
-#     st.header("Dashboard")
-
-#     st.write("Example of simple statistics from Dataset 1:")
-#     df = load_csv("data/vetements-homme.csv")
-
-#     # st.subheader("General Statistics")
-#     # st.write(df.describe())
-
-#     # st.subheader("Line Chart")
-#     # st.line_chart(df)
-
-#     st.subheader("Dashboard Image")
-#     st.image("images/dashboard_image.png", caption="My Dashboard Illustration", use_column_width=True)
-#     st.image("images/plot_julianna2.png", caption="My Dashboard Illustration", use_column_width=True)
-#     st.image("images/plot_julianna3.png", caption="My Dashboard Illustration", use_column_width=True)
-#     st.image("images/plot_julianna4.png", caption="My Dashboard Illustration", use_column_width=True)
 elif option == "Dashboard":
     st.header("Dashboard")
 
-    st.write("Example of simple statistics from Dataset 1:")
+    st.write("Example of simple statistics from the Dataset :")
     df = load_csv("data/vetements-homme.csv")
 
     st.subheader("Dashboard Images")
@@ -137,7 +108,6 @@ elif option == "Dashboard":
     # Première ligne : 2 colonnes
     col1, col2 = st.columns(2)
     # On utilise width en fonction de la largeur de la colonne
-    # Ici 500 px est une taille confortable
     col1.image("images/dashboard_image.png", caption="Dashboard 1", width=650)
     col2.image("images/plot_julianna2.png", caption="Dashboard 2", width=700)
 
@@ -154,7 +124,7 @@ elif option == "Dashboard":
 if st.session_state.selected_dataset:
     name, path = st.session_state.selected_dataset
     st.download_button(
-        label=f"⬇️ Download {name}",
+        label=f"Download {name}",
         data=load_csv(path).to_csv().encode("utf-8"),
         file_name=f"{name}.csv",
         mime="text/csv"
