@@ -1,7 +1,6 @@
 [theme]
-base="dark"
-primaryColor="#FFFFFF"
-backgroundColor="#000000"
-secondaryBackgroundColor="#111111"
-textColor="#FFFFFF"
+primaryColor="#87CEEB" # Sky blue
+backgroundColor="#F8FAFC" # Blanc très doux
+secondaryBackgroundColor="#E2F3FB" # Bleu très clair
+textColor="#0F172A" # Bleu foncé (lisible)
 font="sans serif"
