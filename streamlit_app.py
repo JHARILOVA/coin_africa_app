@@ -5,7 +5,7 @@ st.set_page_config(page_title="My Data App", layout="wide")
 
 st.markdown("""
 <style>
-body {
+body, .main {
     background-color: black;
     color: white;
 }
