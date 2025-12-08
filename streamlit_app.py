@@ -6,8 +6,8 @@ st.set_page_config(page_title="My Data App", layout="wide")
 st.markdown("""
 <style>
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 .sidebar .sidebar-content {
     background-color: #000000;
