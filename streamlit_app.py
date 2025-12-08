@@ -40,9 +40,9 @@ if option == "Display datasets":
     st.write("Select a dataset below to display it:")
 
     csv_files = {
-        "Vetements_hommes": "data/vetements-homme.csv",
-        "coin_africa_vetements-homme": "data/coin_africa_vetements-homme.csv",
-        "chaussures-enfants": "data/chaussures-enfants.csv",
+        "Vetements hommes": "data/vetements-homme.csv",
+        "Vetements hommes Africa": "data/coin_africa_vetements-homme.csv",
+        "chaussures enfants": "data/chaussures-enfants.csv",
         "africa_coin_chaussures-enfants": "data/africa_coin_chaussures-enfants.csv",
         "chaussures-homme": "data/chaussures-homme.csv",
         "coin_africa_chaussures-homme": "data/coin_africa_chaussures-homme.csv",
