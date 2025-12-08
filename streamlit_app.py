@@ -37,7 +37,7 @@ if "selected_dataset" not in st.session_state:
 
 if option == "Display datasets":
     st.header("Datasets")
-    st.write("CoinAfrique is a mobile and web platform for buying and selling goods and services in French-speaking Africa. Users can post free classifieds for items like clothing, electronics, vehicles, and real estate, and connect directly with buyers or sellers nearby. It aims to make local commerce simple and accessible via smartphones")
+    st.write("CoinAfrique is a mobile and web platform for buying and selling goods and services. Users can post free classifieds for items like clothing, electronics, vehicles, and real estate, and connect directly with buyers or sellers nearby. It aims to make local commerce simple and accessible via smartphones")
     st.write("Select a dataset below to display it:")
 
     csv_files = {
