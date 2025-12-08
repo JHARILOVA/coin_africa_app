@@ -32,7 +32,7 @@ st.sidebar.title("Navigation")
 option = st.sidebar.selectbox(
     "Choose a section",
     [
-        "Display my 8 datasets",
+        "Display datasets",
         "Google Forms",
         "Dashboard"
     ]
@@ -47,8 +47,8 @@ if "selected_dataset" not in st.session_state:
 # ------------------------------
 # 1️⃣ DISPLAY 8 CSV FILES
 # ------------------------------
-if option == "Display my 8 datasets":
-    st.header("Display my 8 datasets")
+if option == "Display datasets":
+    st.header("Datasets")
     st.write("Select a dataset below to display it:")
 
     csv_files = {
