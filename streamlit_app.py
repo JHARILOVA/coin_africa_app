@@ -42,12 +42,12 @@ if option == "Display datasets":
     csv_files = {
         "Data Vetements hommes": "data/vetements-homme.csv",
         "Vetements hommes via web scraper": "data/coin_africa_vetements-homme.csv",
-        "chaussures enfants": "data/chaussures-enfants.csv",
-        "Chaussures enfants via web scraper": "data/africa_coin_chaussures-enfants.csv",
-        "chaussures hommes": "data/chaussures-homme.csv",
-        "chaussures homme via web scraper": "data/coin_africa_chaussures-homme.csv",
-        "vetements enfants": "data/vetements-enfants.csv",
-        "vetements enfants via web scraper": "data/coin_afrique_vetements-enfants.csv",
+        "Data chaussures enfants": "data/chaussures-enfants.csv",
+        "Data Chaussures enfants via web scraper": "data/africa_coin_chaussures-enfants.csv",
+        "Data chaussures hommes": "data/chaussures-homme.csv",
+        "Data chaussures homme via web scraper": "data/coin_africa_chaussures-homme.csv",
+        "Data vetements enfants": "data/vetements-enfants.csv",
+        "Data vetements enfants via web scraper": "data/coin_afrique_vetements-enfants.csv",
     }
 
     cols = st.columns(4)  
