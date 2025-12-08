@@ -53,13 +53,13 @@ if option == "Display  datasets":
 
     # Datasets
     csv_files = {
-        "Vetements_pour_hommes": "data/vetements-homme.csv",
-        "Vetements_pour_hommes1": "data/coin_africa_vetements-homme.csv",
-        "Chaussures_pour_enfants": "data/chaussures-enfants.csv",
-        "Chaussures_pour_enfants1": "data/africa_coin_chaussures-enfants.csv",
-        "Chaussures_pour_hommes": "data/chaussures-homme.csv",
-        "Chaussures_pour_hommes1": "data/coin_africa_chaussures-homme.csv",
-        "vetements_pour_enfants": "data/vetements-enfants.csv",
+        "Vetements_hommes": "data/vetements-homme.csv",
+        "coin_africa_vetements-homme": "data/coin_africa_vetements-homme.csv",
+        "chaussures-enfants": "data/chaussures-enfants.csv",
+        "africa_coin_chaussures-enfants": "data/africa_coin_chaussures-enfants.csv",
+        "chaussures-homme": "data/chaussures-homme.csv",
+        "coin_africa_chaussures-homme": "data/coin_africa_chaussures-homme.csv",
+        "vetements-enfants": "data/vetements-enfants.csv",
         "coin_afrique_vetements-enfants": "data/coin_afrique_vetements-enfants.csv",
     }
 
