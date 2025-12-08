@@ -13,6 +13,9 @@ body {
     background-color: #000000;
     color: white;
 }
+h1, h2, h3{
+    text-align: center !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
