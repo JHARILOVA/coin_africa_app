@@ -13,9 +13,6 @@ body, .main {
     background-color: #000000;
     color: white;
 }
-h1{
-    text-align: center !important;
-    }
 </style>
 """, unsafe_allow_html=True)
 
