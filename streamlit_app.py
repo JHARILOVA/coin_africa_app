@@ -33,7 +33,7 @@ option = st.sidebar.selectbox(
     "Choose a section",
     [
         "Display datasets",
-        "Google Forms",
+        "Google Forms & KoBoToolbox",
         "Dashboard"
     ]
 )
@@ -82,7 +82,7 @@ if option == "Display datasets":
 # ------------------------------
 # 2️⃣ GOOGLE FORMS SECTION
 # ------------------------------
-elif option == "Google Forms":
+elif option == "Google Forms & KoBoToolbox":
     st.header("Google Forms & KoBoToolbox")
 
     st.subheader("KoBoToolbox Form")
