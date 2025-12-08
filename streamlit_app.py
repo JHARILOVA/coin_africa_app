@@ -130,7 +130,7 @@ elif option == "Google Forms":
 #     st.image("images/plot_julianna3.png", caption="My Dashboard Illustration", use_column_width=True)
 #     st.image("images/plot_julianna4.png", caption="My Dashboard Illustration", use_column_width=True)
 elif option == "Dashboard":
-    st.header("📊 Dashboard")
+    st.header("Dashboard")
 
     st.write("Example of simple statistics from Dataset 1:")
     df = load_csv("data/vetements-homme.csv")
