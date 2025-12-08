@@ -41,7 +41,7 @@ if option == "Display datasets":
 
     csv_files = {
         "Data Vetements hommes": "data/vetements-homme.csv",
-        "Vetements hommes via web scraper": "data/coin_africa_vetements-homme.csv",
+        "Data Vetements hommes via web scraper": "data/coin_africa_vetements-homme.csv",
         "Data chaussures enfants": "data/chaussures-enfants.csv",
         "Data Chaussures enfants via web scraper": "data/africa_coin_chaussures-enfants.csv",
         "Data chaussures hommes": "data/chaussures-homme.csv",
