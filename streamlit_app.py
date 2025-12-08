@@ -43,11 +43,11 @@ if option == "Display datasets":
         "Vetements hommes": "data/vetements-homme.csv",
         "Vetements hommes Africa": "data/coin_africa_vetements-homme.csv",
         "chaussures enfants": "data/chaussures-enfants.csv",
-        "africa_coin_chaussures-enfants": "data/africa_coin_chaussures-enfants.csv",
-        "chaussures-homme": "data/chaussures-homme.csv",
-        "coin_africa_chaussures-homme": "data/coin_africa_chaussures-homme.csv",
-        "vetements-enfants": "data/vetements-enfants.csv",
-        "coin_afrique_vetements-enfants": "data/coin_afrique_vetements-enfants.csv",
+        "Chaussures enfants Africa": "data/africa_coin_chaussures-enfants.csv",
+        "chaussures hommes": "data/chaussures-homme.csv",
+        "chaussures homme Africa": "data/coin_africa_chaussures-homme.csv",
+        "vetements enfants": "data/vetements-enfants.csv",
+        "vetements enfants Africa": "data/coin_afrique_vetements-enfants.csv",
     }
 
     cols = st.columns(4)  
