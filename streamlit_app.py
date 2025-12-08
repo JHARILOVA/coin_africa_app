@@ -47,11 +47,10 @@ if "selected_dataset" not in st.session_state:
 # ------------------------------
 # 1️⃣ DISPLAY 8 CSV FILES
 # ------------------------------
-if option == "Display  datasets":
-    st.header("Datasets")
+if option == "Display my 8 datasets":
+    st.header("Display my 8 datasets")
     st.write("Select a dataset below to display it:")
 
-    # Datasets
     csv_files = {
         "Vetements_hommes": "data/vetements-homme.csv",
         "coin_africa_vetements-homme": "data/coin_africa_vetements-homme.csv",
