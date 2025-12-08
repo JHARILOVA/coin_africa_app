@@ -87,14 +87,14 @@ elif option == "Google Forms & KoBoToolbox":
 
 elif option == "Dashboard":
     st.header("Dashboard")
-    st.write("Example of simple statistics from the Dataset :")
+    st.write("Simple statistics from the Dataset :")
     df = load_csv("data/vetements-homme.csv")
 
     st.subheader("Dashboard Images")
     col1, col2 = st.columns(2)
-    col1.image("images/dashboard_image.png", caption="Dashboard 1", width=650)
-    col2.image("images/plot_julianna2.png", caption="Dashboard 2", width=700)
+    col1.image("images/dashboard_image.png", caption="Price Variation of Men’s Clothing", width=650)
+    col2.image("images/plot_julianna2.png", caption="Price Variation of Men’s shoes", width=700)
 
     col3, col4 = st.columns(2)
-    col3.image("images/plot_julianna3.png", caption="Dashboard 3", width=600)
-    col4.image("images/plot_julianna4.png", caption="Dashboard 4", width=700)
+    col3.image("images/plot_julianna3.png", caption="Price Variation of kid’s Clothing", width=600)
+    col4.image("images/plot_julianna4.png", caption="Price Variation of kid’s shoes", width=700)
