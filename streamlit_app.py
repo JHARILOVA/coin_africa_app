@@ -22,7 +22,7 @@ def load_csv(path):
 
 st.sidebar.title("Navigation")
 
-option = st.sidebar.selectbox(
+option = st.sidebar.radio(
     "Choose a section",
     [
         "Display datasets",
