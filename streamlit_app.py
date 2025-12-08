@@ -48,7 +48,7 @@ if "selected_dataset" not in st.session_state:
 # 1️⃣ DISPLAY 8 CSV FILES
 # ------------------------------
 if option == "Display my 8 datasets":
-    st.header("Display my 8 datasets")
+    st.header("Datasets")
     st.write("Select a dataset below to display it:")
 
     # 8 datasets
