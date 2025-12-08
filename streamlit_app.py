@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# ------------------------------
-# PAGE CONFIG AND DESIGN
-# ------------------------------
 st.set_page_config(page_title="My Data App", layout="wide")
 
 # CSS for clean black & white design
